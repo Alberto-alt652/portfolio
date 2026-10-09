@@ -1,0 +1,66 @@
+/* Reset di base e font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenitore principale */
+.profile-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+/* Foto profilo tonda */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+
+/* Testo */
+h1 {
+    margin: 15px 0 5px 0;
+    color: #333;
+}
+
+.bio {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* Bottoni dei link */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-btn {
+    display: block;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+/* Effetto quando passi il mouse sopra il bottone */
+.link-btn:hover {
+    background-color: #0056b3;
+}
