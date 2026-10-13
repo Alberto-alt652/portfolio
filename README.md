@@ -7,9 +7,6 @@
 
 ---
 
-## 📸 Anteprima
-<!-- Inserisci qui uno screenshot del tuo sito per mostrare la card -->
-![Anteprima del Sito](https://placeholder.com)
 
 ---
 
